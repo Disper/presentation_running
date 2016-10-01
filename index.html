@@ -1,50 +1,155 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+<!-- Printing and PDF exports -->
+<script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+</head>
+<body>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Plan of presentation
+            </h1>            <ol>
+                <li>
+                My story 
+                </li>
+                <li>
+                Why running is AWESOME? 
+                </li>
+                <li>
+                Requirements 
+                </li>
+                <li>
+                Motivation 
+                </li>
+                <li>
+                Tips
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h1>My story</h1>
+        </section>
+        <section>
+            <h1>Why running is AWESOME?</h1>
+            <li class="fragment">
+            Endorphins
+            </li>
+            <li class="fragment">
+            Burning calories
+            </li>
+            <li class="fragment">
+            Improving endurance
+            </li>
+            <li class="fragment">
+            Strengthening core muscles
+            </li>
+        </section>
+
+        <section>
+            <h1>
+                Requirements 
+            </h1>
+            <ul>
+                <li class="fragment">
+                <h3>Running shoes </h3>
+                </li>
+                <li class="fragment">
+                (nice to have) HR monitor
+                </li>
+                <li class="fragment">
+                (nice to have) GPS tracker
+                </li>
+                <li class="fragment">
+                (nice to have) Glasses
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h1>Motivation</h1>
+            <ul>
+                <li class="fragment">
+                Plan your trainings
+                </li>
+                <li class="fragment">
+                Set up a goal for yourself
+                </li>
+                <li class="fragment">
+                Social challenges
+                </li>
+                <li class="fragment">
+                Poor training which was actually conducted is much better than a perfect plan
+                </li>
+            </ul>
+        </section>
+            <section>
+                <h1>
+                    Tips 
+                </h1>
+                <ul>
+                    <li class="fragment">
+                    Beginners should start with walk/runs
+                    </li>
+                    <li class="fragment">
+                    Be well hydrated before running
+                    </li>
+                    <li class="fragment">
+                    Mix your training
+                    </li>
+                </ul>
+            </section>
+        <section>
+            <h1>
+                Questions 
+            </h1>
+        </section>
+        <section>
+            <h1>
+                Thank you
+            </h1>
+        </section>
+    </div>
+</div>
+
+
+
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+history: true,
+
+// More info https://github.com/hakimel/reveal.js#dependencies
+dependencies: [
+{ src: 'plugin/markdown/marked.js' },
+{ src: 'plugin/markdown/markdown.js' },
+{ src: 'plugin/notes/notes.js', async: true },
+{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+]
+});
+</script>
+</body>
 </html>
